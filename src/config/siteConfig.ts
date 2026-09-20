@@ -122,20 +122,24 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/ashima-01.webp",
+				"/assets/desktop-banner/ashima-02.webp",
+				"/assets/desktop-banner/ashima-03.webp",
+				"/assets/desktop-banner/ashima-04.webp",
+				"/assets/desktop-banner/ashima-05.webp",
+				"/assets/desktop-banner/ashima-06.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/ashima-01.webp",
+				"/assets/mobile-banner/ashima-02.webp",
+				"/assets/mobile-banner/ashima-03.webp",
+				"/assets/mobile-banner/ashima-04.webp",
+				"/assets/mobile-banner/ashima-05.webp",
+				"/assets/mobile-banner/ashima-06.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
-		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
+		position: "top", // 优先显示人物面部，避免宽屏横幅裁掉画面上方
 
 		carousel: {
 			enable: true,
